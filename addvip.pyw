@@ -85,11 +85,7 @@ def addvip():
         delete = buf.getvalue()
         if inCircle(mouse,circ):
             if os.path.isfile(PATH) and os.access(PATH, os.R_OK):
-                infile = open('C:/Users/Xilver/Desktop/vip.cfg','r+')
-                content = infile.readlines()
-                content[1] = 'This is a new line\n'
-                infile.write(content)
-                infile.close()
+                #if the file already exists write the steamid in it
             else:
                 f = open("vip.cfg", "w")
                 f.write(str(delete))
