@@ -9,7 +9,7 @@ from cStringIO import StringIO
 import sys
 import fileinput
 
-PATH = '' #path to your vip.txt file
+PATH = '' #path to your vip.cfg file
 def select():
     choice = var.get()
     if choice == "V.I.P":
