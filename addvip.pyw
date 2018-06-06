@@ -86,6 +86,7 @@ def addvip():
         if inCircle(mouse,circ):
             if os.path.isfile(PATH) and os.access(PATH, os.R_OK):
                 #if the file already exists write the steamid in it
+                print "Delete this, this is only to prevent errors"
             else:
                 f = open("vip.cfg", "w")
                 f.write(str(delete))
