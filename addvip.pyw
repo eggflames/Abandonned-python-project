@@ -26,7 +26,7 @@ button.pack(side='left', padx=20, pady=10)
 def mainscreen():
     win = GraphWin("Staff Panel", 500, 500)
     
-    mes = Text(Point(250,250), "Staff Panel made by Flamepoika")
+    mes = Text(Point(250,250), "Staff Panel Unfinished")
     mes1 = Text(Point(250, 262), "Note that i wont do any updates in the future")
     mes2 = Text(Point(250, 274), "If you have troubles working with this you can add me on Steam")
     mes.setFace('courier')
