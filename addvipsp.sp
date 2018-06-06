@@ -1,5 +1,4 @@
 #include <sourcemod>
-#include <clients>
 
 public OnPluginStart()
 {
